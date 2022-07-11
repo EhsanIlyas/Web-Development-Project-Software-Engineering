@@ -12,15 +12,16 @@
 }
 .Navigation
 {
-height: 35px;
+height: 55px;
 
 display: flex;
 justify-content: space-between;
 align-items: center;
 font-family: var(--font1);
-font-style: italic;
+
 margin-top: 5px;
 font-weight: bold;
+font-size: 20px;
 }
 .content
 {
@@ -41,6 +42,7 @@ font-weight: bold;
 
     
     display: flex;
+    font-weight: italic;
 }
 .nav-left ul li
 {
@@ -49,6 +51,7 @@ font-weight: bold;
     margin: 0 20px;
     font-family: var(--font1);
     text-decoration-color: beige;
+    font-size: 20px;
     
 }
 .nav-left ul 
@@ -61,6 +64,25 @@ font-weight: bold;
 .nav-left ul li a{
 
     text-decoration: none;
+}
+.btn
+{
+
+
+    padding: 8px 15px;
+    font-size: 15px;
+    border: 2px black;
+    border-radius: 5px;
+    font-family: var(--font1);
+}
+.form-input{
+
+    padding: 8px 9px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: var(--font1);
+
 }
 .color
 {

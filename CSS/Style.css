@@ -1,18 +1,24 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
 .Navigation
 {
 height: 35px;
-
+background-color: black;
 }
 .content
 {
 
     height: 50px;
+    background-color: purple;
 
 }
-.footer
+.Footer
 {
     height: 55px;
-
+background-color: green;
 
 
 }

@@ -18,6 +18,9 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 font-family: var(--font1);
+font-style: italic;
+margin-top: 5px;
+font-weight: bold;
 }
 .content
 {

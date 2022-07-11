@@ -1,9 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Roboto&display=swap');
 :root{
 
 
     --font1:'Roboto', sans-serif;
+    --font2:'Gothic A1', sans-serif;
 }
 *{
 
@@ -26,8 +28,20 @@ font-size: 20px;
 .content
 {
 
-    height: 50px;
+    display: flex;
+    height: 290px;
+
+    font-size: 20px;
+    font-family: var(--font2);
     
+
+}
+.content-left p
+{
+font-size: 30px;
+width: 50%;
+display: flex;
+
 
 }
 .Footer
@@ -72,16 +86,27 @@ font-size: 20px;
     padding: 8px 15px;
     font-size: 15px;
     border: 2px black;
-    border-radius: 5px;
+    border-radius: 6px;
     font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.content-right img{
+display: flex;
+    height:300px;
+    width:300px;
+    border:2px solid
+    
 }
 .form-input{
 
     padding: 8px 9px;
     font-size: 15px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
     font-family: var(--font1);
+    padding-top: 6px;
 
 }
 .color

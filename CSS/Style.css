@@ -1,106 +1,107 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Roboto&display=swap');
-:root{
+
+:root {
 
 
-    --font1:'Roboto', sans-serif;
-    --font2:'Gothic A1', sans-serif;
-    --main-bg-color:brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Gothic A1', sans-serif;
+    --main-bg-color: brown;
 }
-*{
+
+* {
 
     margin: 8px;
     padding: 0;
 }
-.Navigation
-{
-height: 55px;
 
-display: flex;
-justify-content: space-between;
-align-items: center;
-font-family: var(--font1);
+.Navigation {
+    height: 55px;
 
-margin-top: 5px;
-font-weight: bold;
-font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
 }
-.content
-{
+
+.content {
 
     display: flex;
     height: 290px;
 
-    font-size: 15px;
-    font-family: var(--font2);
+    font-size: 22px;
+    
     align-items: center;
     text-align: justify;
-    
-
-}
-
-.content-left p
-{
-font-size: 30px;
-width: 50%;
-display: flex;
 
 
 }
-.Footer
-{
+
+.content-left p {
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+
+
+}
+
+.Footer {
     height: 55px;
 
 
 
 }
-.nav-left
-{
 
-    
+.nav-left {
+
+
     display: flex;
     font-weight: italic;
     font-size: 10px;
 }
-.nav-left p1
-{
+
+.nav-left p1 {
 
     font-size: 15px;
 
 
 }
-.nav-left ul li
-{
+
+.nav-left ul li {
     list-style: none;
     text-decoration: none;
     margin: 0 20px;
-    font-family: var(--font1);
+
     text-decoration-color: beige;
     font-size: 20px;
-    
+
 }
-.nav-left ul li:hover
-{
+
+.nav-left ul li:hover {
 
     text-decoration-line: underline;
- 
- 
+
+
 
 }
-.nav-left ul 
-{
+
+.nav-left ul {
     display: flex;
     align-items: center;
     text-decoration-color: beige;
-    
+
 }
-.nav-left ul li a{
+
+.nav-left ul li a {
 
     text-decoration: none;
 }
-.btn
-{
+
+.btn {
 
 
     padding: 8px 15px;
@@ -110,24 +111,25 @@ display: flex;
     font-family: var(--font1);
     cursor: pointer;
     transition: all 0.1s ease-in;
-    
+
 
 }
-.btn:hover{
+
+.btn:hover {
 
     color: aliceblue;
-background:var(--main-bg-color);
+    background: var(--main-bg-color);
 
 }
-.content-right img{
-display: flex;
-    height:300px;
-    width:300px;
-    border:2px solid
 
-    
+.content-right img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: 2px solid
 }
-.form-input{
+
+.form-input {
 
     padding: 8px 9px;
     font-size: 15px;
@@ -137,8 +139,44 @@ display: flex;
     padding-top: 6px;
 
 }
-.color
-{
+
+.color {
 
     text-decoration-color: white;
+}
+
+.max-width {
+
+
+    width: 80vw;
+}
+
+.Home-Articles {
+
+    height: 400px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    
+
+
+}
+.Home-Articles
+{
+
+    
+}
+.Home-Articles a {
+
+    color: black;
+}
+
+
+
+.Home-article
+{
+
+    height: 80px;
+    display: flex;
 }

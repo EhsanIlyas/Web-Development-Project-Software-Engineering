@@ -22,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
     
-
+background-color: none;
     margin-top: 5px;
     font-weight: bold;
     font-size: 20px;
@@ -37,8 +37,13 @@
     
     align-items: center;
     text-align: justify;
+    position: relative
 
+}
+.content::after
+{
 
+    
 }
 
 .content-left p {
@@ -153,7 +158,7 @@
 
 .Home-Articles {
 
-    height: 400px;
+    height: px;
     text-decoration: none;
     list-style: none;
     

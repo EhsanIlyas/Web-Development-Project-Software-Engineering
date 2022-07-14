@@ -185,3 +185,12 @@ background-color: none;
     height: 80px;
     display: flex;
 }
+.footer {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
